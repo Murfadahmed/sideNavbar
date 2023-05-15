@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+.navbar{
+    display: flex;
+    flex-direction: column
+}
+.navbar .slidbar
+{
+    font-size: 2.1rem;
+    margin-top: 1.2rem;
+    /* text-align: center; */
+    display: flex;
+    text-transform: capitalize;
+    margin-left: 10px;
+
+}
+.navbar .slidbar span{
+    color: yellowgreen;
+}
+.navbar .slidbar i{
+    font-size: 20px;
+    position: absolute;
+    right: 1030px;
+    top: 10px;
+}
+.navbar a{
+
+    padding: 40px 30px;
+    font-size: 30px;
+    font-weight: 100;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.navbar a:hover{
+    background-color: grey;
+    text-transform: lowercase;
+}
+.sidebar{
+    width: 25%;
+    height: 100vh;
+    border: 2px solid black;
+    background-color: aquamarine;
+}
